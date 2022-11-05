@@ -40,3 +40,11 @@ Categories=Network;InstantMessaging;
 Path=/usr/bin
 ```
 10. Should now be available in your app menu (may need to login again)
+
+#### Windows
+1. Download electron from it's [release page over on github](https://github.com/electron/electron/releases), the zip file to download should be name like so `electron-vVERSION-NUMER-win32-x64.zip`
+2. Unzip the file to your desired directory
+3. Download and execute the openasar installer from it's [website](https://openasar.dev)
+4. Open a terminal (CMD or powershell) back in the electron directory unziped in step 2 and run `.\electron.exe C:\Users\YOUR-USERNAME-HERE\AppData\Local\Discord\app-1.0.9007\resources\app.asar`, alternatively you can just replace this long path with `%localappdata%\Discord\app-1.0.9007\resources\app.asar` if you are using CMD
+5. I recommend creating a script and then creating a shortcut on your desktop with a custom icon
+6. You can now run discord using the downloaded electron version

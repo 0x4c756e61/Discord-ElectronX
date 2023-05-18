@@ -1,7 +1,7 @@
 ## Running discord under nearly any electron version
 
 ### But what electron version is discord currently running under ?
-Currently discord is running electron version 13
+Currently discord stable is running electron version 22.3.2
 
 ### Using custom electron versions
 

@@ -3,6 +3,12 @@
 ### But what electron version is discord currently running under ?
 Currently discord stable is running electron version 22.3.2
 
+### Notes
+Using this technique I managed to make discord run natively on wayland, altho it is pretty unstable (screensharing doesn't):
+- Make sure you have [openasar](https://openasar.dev) installed
+- Locate your discord's asar directory (ex: `/opt/discord/ressources/app.asar/`)
+- Inside id run `electron25 . --ozone-platform-hint=auto --enable-features=UseOzonePlatform` (I only tested electron25 but it may work with other versions as well)
+
 ### Using custom electron versions
 
 #### Arch Linux
